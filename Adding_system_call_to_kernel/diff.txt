@@ -1,0 +1,49 @@
+Common subdirectories: linux-3.13-old/arch and linux-3.13/arch
+Common subdirectories: linux-3.13-old/block and linux-3.13/block
+Only in linux-3.13: .config
+Only in linux-3.13: .config.old
+Common subdirectories: linux-3.13-old/crypto and linux-3.13/crypto
+Only in linux-3.13: debian
+Common subdirectories: linux-3.13-old/Documentation and linux-3.13/Documentation
+Common subdirectories: linux-3.13-old/drivers and linux-3.13/drivers
+Common subdirectories: linux-3.13-old/firmware and linux-3.13/firmware
+Common subdirectories: linux-3.13-old/fs and linux-3.13/fs
+Common subdirectories: linux-3.13-old/include and linux-3.13/include
+Common subdirectories: linux-3.13-old/init and linux-3.13/init
+Common subdirectories: linux-3.13-old/ipc and linux-3.13/ipc
+Common subdirectories: linux-3.13-old/kernel and linux-3.13/kernel
+Common subdirectories: linux-3.13-old/lib and linux-3.13/lib
+diff linux-3.13-old/Makefile linux-3.13/Makefile
+757c757
+< core-y		+= kernel/ mm/ fs/ ipc/ security/ crypto/ block/
+---
+> core-y		+= kernel/ mm/ fs/ ipc/ security/ crypto/ block/ sh_task_info/
+Only in linux-3.13: Makefile~
+Only in linux-3.13: .missing-syscalls.d
+Common subdirectories: linux-3.13-old/mm and linux-3.13/mm
+Only in linux-3.13: modules.builtin
+Only in linux-3.13: modules.order
+Only in linux-3.13: Module.symvers
+Common subdirectories: linux-3.13-old/net and linux-3.13/net
+Common subdirectories: linux-3.13-old/samples and linux-3.13/samples
+Common subdirectories: linux-3.13-old/scripts and linux-3.13/scripts
+Common subdirectories: linux-3.13-old/security and linux-3.13/security
+Only in linux-3.13: sh_task_info
+Only in linux-3.13: signing_key.priv
+Only in linux-3.13: signing_key.x509
+Common subdirectories: linux-3.13-old/sound and linux-3.13/sound
+Only in linux-3.13: System.map
+Only in linux-3.13: .tmp_kallsyms1.o
+Only in linux-3.13: .tmp_kallsyms2.o
+Only in linux-3.13: .tmp_System.map
+Only in linux-3.13: .tmp_versions
+Only in linux-3.13: .tmp_vmlinux1
+Only in linux-3.13: .tmp_vmlinux2
+Common subdirectories: linux-3.13-old/tools and linux-3.13/tools
+Common subdirectories: linux-3.13-old/usr and linux-3.13/usr
+Only in linux-3.13: .version
+Common subdirectories: linux-3.13-old/virt and linux-3.13/virt
+Only in linux-3.13: vmlinux
+Only in linux-3.13: .vmlinux.cmd
+Only in linux-3.13: vmlinux.o
+Only in linux-3.13: x509.genkey

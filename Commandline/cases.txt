@@ -1,0 +1,14 @@
+Test cases:
+saurav os>exit
+saurav os> exit
+saurav os>ls -a
+saurav os> ls -d 
+saurav os>no command
+saurav os>jksjdjf
+saurav os>cat shell.c
+saurav os>mkdir ms
+saurav os>cd ms
+saurav os>cd ..
+saurav os>echo saurav
+saurav os>rm anyfile
+saurav os>history
